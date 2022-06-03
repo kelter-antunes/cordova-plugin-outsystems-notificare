@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-notificare",
+  "name": "cordova-plugin-outsystems-notificare",
   "version": "3.1.0",
   "description": "Notificare Cordova Plugin.",
   "author": "Notificare <info@notifica.re> (https://notificare.com)",
@@ -40,7 +40,7 @@
     "docs:replace-symbolic-links": "rm README.md CHANGELOG.md MIGRATION.md; cp ../../README.md ../../CHANGELOG.md ../../MIGRATION.md ."
   },
   "cordova": {
-    "id": "cordova-plugin-notificare",
+    "id": "cordova-plugin-outsystems-notificare",
     "platforms": [
       "android",
       "ios"
@@ -54,6 +54,5 @@
         "cordova-ios": ">=5.0.0"
       }
     }
-  },
-  "gitHead": "9c4b58cc7ede9842878cbf6892759f69b80f58e8"
+  }
 }
