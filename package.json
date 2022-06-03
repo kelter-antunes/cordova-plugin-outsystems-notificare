@@ -4,12 +4,12 @@
   "description": "Notificare Cordova Plugin.",
   "author": "Notificare <info@notifica.re> (https://notificare.com)",
   "license": "MIT",
-  "homepage": "https://github.com/notificare/notificare-sdk-cordova#readme",
+  "homepage": "https://github.com/kelter-antunes/cordova-plugin-outsystems-notificare",
   "repository": {
-    "url": "https://github.com/Notificare/notificare-sdk-cordova"
+    "url": "https://github.com/kelter-antunes/cordova-plugin-outsystems-notificare"
   },
   "bugs": {
-    "url": "https://github.com/Notificare/notificare-sdk-cordova/issues"
+    "url": "https://github.com/kelter-antunes/cordova-plugin-outsystems-notificare/issues"
   },
   "keywords": [
     "notificare",

@@ -7,6 +7,7 @@ If you are already using null safety in your project, you should have a first cl
 
 We have increased the minimum versions required to run the Notificare libraries to Android 6.0+ (API level 23+) and iOS 10+. According to Google's API version distribution stats, this minimum version should support ~94% of the Android devices, and, virtually, every iOS device worldwide.
 
+
 ## Configuration file
 
 ### Android
