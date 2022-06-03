@@ -13,6 +13,8 @@
 
     <asset src="build/notificare.bundle.js.map" target="plugins/notificare/build/notificare.bundle.js.map" />
 
+    <dependency id="cordova-plugin-outsystems-notificare-core" url="https://github.com/kelter-antunes/cordova-plugin-outsystems-notificare-core#1.0.1"/>
+
     <platform name="android">
         <config-file target="config.xml" parent="/*">
             <preference name="AndroidXEnabled" value="true" />
