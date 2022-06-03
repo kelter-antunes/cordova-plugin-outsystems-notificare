@@ -1,6 +1,6 @@
 const EVENT_SUBSCRIPTIONS: EventSubscription[] = [];
 
-export function bootstrap() {
+export function bootstrap(): void {
   document.addEventListener(
     'deviceready',
     function onDeviceReady() {
@@ -9,10 +9,10 @@ export function bootstrap() {
         function onSuccess(event: any) {
           EVENT_SUBSCRIPTIONS.filter((sub) => sub.event === event.name).forEach((sub) => sub.callback(event.data));
         },
-        function onFailure(error: unknown) {
+        function onFailure(error) {
           console.error('Failed to register event listener.', error);
         },
-        'Notificare',
+        'NotificareScannables',
         'registerListener',
         []
       );

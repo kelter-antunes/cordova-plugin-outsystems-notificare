@@ -1,11 +1,8 @@
-import { Notificare } from './notificare';
+import { NotificareScannables } from './notificare-scannables';
 import { bootstrap } from './events';
 
-export * from './models/notificare-application';
-export * from './models/notificare-device';
-export * from './models/notificare-do-not-disturb';
-export * from './models/notificare-notification';
+export * from './models/notificare-scannable';
 
-export default Notificare;
+export default NotificareScannables;
 
 bootstrap();

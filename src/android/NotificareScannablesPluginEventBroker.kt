@@ -1,8 +1,8 @@
-package re.notifica.cordova
+package re.notifica.scannables.cordova
 
 import re.notifica.internal.NotificareLogger
 
-internal object NotificarePluginEventBroker {
+internal object NotificareScannablesPluginEventBroker {
 
     private val eventQueue = mutableListOf<Event>()
     private var consumer: Consumer? = null

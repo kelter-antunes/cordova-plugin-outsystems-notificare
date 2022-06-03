@@ -1,6 +1,6 @@
 import NotificareKit
 
-class NotificarePluginEventBroker {
+class NotificareScannablesPluginEventBroker {
 
     typealias Consumer = (_ event: Event) -> Void
 
